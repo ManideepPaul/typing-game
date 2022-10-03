@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #2F4858;
+}
+
+h1 {
+    font-family: 'Peralta', cursive;
+    color: #f9ab19;
+    text-shadow: #ffc75f40 0px 54px 55px, #ffc75f1f 0px -12px 30px, #ffc75f1f 0px 4px 6px, #ffc75f2b 0px 12px 13px, #ffc75f17 0px -3px 5px;
+}
+
+.displayContainer {
+    background-color: #FFC75F;
+    width: 400px;
+    min-height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+.wordShow {
+    background-color: #123e45;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #f2f2f2;
+}
+
+.inputSection {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+input {
+    width: 200px;
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #2f4858de;
+    color: #f1f1f1;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #123e45;
+    color: #f2f2f2;
+    transition: .15s ease-in;
+    scale: 1.05;
+}
+
+button:active {
+    scale: 1;;
+}
