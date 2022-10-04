@@ -24,7 +24,7 @@ h1 {
 }
 
 .displayContainer {
-    background-color: #FFC75F;
+    background-color: #ffc75f;
     width: 400px;
     min-height: 300px;
     border-radius: 10px;
@@ -33,6 +33,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    box-shadow: #ffc75f4d 0px 19px 38px, #ffc75f38 0px 15px 12px;
 }
 
 .stats {
