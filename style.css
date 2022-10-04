@@ -18,9 +18,18 @@
 }
 
 h1 {
+    font-size: 48px;
     font-family: 'Peralta', cursive;
     color: #f9ab19;
     text-shadow: #ffc75f40 0px 54px 55px, #ffc75f1f 0px -12px 30px, #ffc75f1f 0px 4px 6px, #ffc75f2b 0px 12px 13px, #ffc75f17 0px -3px 5px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+span > p {
+    font-size: 24px;
 }
 
 .displayContainer {
@@ -71,7 +80,7 @@ h1 {
 
 input {
     width: 200px;
-    font-size: 18px;
+    font-size: 26px;
     padding: 5px 10px;
     outline: none;
     border: none;
@@ -85,6 +94,7 @@ button {
     border-radius: 5px;
     outline: none;
     border: none;
+    font-size: 18px;
 }
 
 button:hover {
