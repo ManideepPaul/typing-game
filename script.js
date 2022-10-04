@@ -66,4 +66,5 @@ reset.addEventListener('click', () => {
     wordCount = 0;
     cpm.textContent = 0;
     word.textContent = 0;
+    input.value = '';
 })
